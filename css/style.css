@@ -1,0 +1,45 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: darkslateblue;
+  height: 100vh;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+h1{
+  color: white;
+  font-size: 5rem;
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  width: 60%;
+  margin: 0 auto;
+  padding: 10px;
+  gap: 20px;
+  justify-content: center;
+}
+
+.box{
+  width: 100px;
+  height: 100px;
+  background-color: cadetblue;
+}
+
+.fizz{
+  background-color: aquamarine;
+}
+
+.buzz{
+  background-color: orange;
+}
+
+.fizzbuzz{
+  background-color:tomato;
+}
