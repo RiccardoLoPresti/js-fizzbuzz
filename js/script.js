@@ -3,7 +3,7 @@ const container = document.querySelector('.container')
 const limit = 100;
 
 /*ALGORITMO*/
-for(let i = 1; i <= 100; i++){
+for(let i = 1; i <= limit; i++){
 
   const box = document.createElement('div');
   box.className= 'box'
